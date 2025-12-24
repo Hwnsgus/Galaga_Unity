@@ -1,0 +1,23 @@
+// PlayerController.cs
+using UnityEngine;
+
+public class PlayerController : MonoBehaviour
+{
+    public float moveSpeed = 5.0f;
+    public GameObject bulletPrefab; // 인스펙터에서 총알 프리팹 연결
+    public Transform firePoint;     // 총알이 나갈 위치 (플레이어 머리 끝)
+
+    void Update()
+    {
+        // 1. 플레이어 이동 (화살표 키)
+        float h = Input.GetAxisRaw("Horizontal");
+        float v = Input.GetAxisRaw("Vertical");
+        transform.Translate(new Vector2(h, v) * moveSpeed * Time.deltaTime);
+
+        // 2. 총알 발사 (스페이스바)
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Instantiate(bulletPrefab, firePoint.position, Quaternion.identity);
+        }
+    }
+}

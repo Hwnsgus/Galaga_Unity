@@ -1,0 +1,52 @@
+# =========================
+# Unity 기본 자동 생성 폴더
+# =========================
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# =========================
+# Unity Package Cache
+# =========================
+Packages/packages-lock.json
+Library/PackageCache/
+
+# =========================
+# Unity ProjectSettings (일반적으로 버전관리 제외)
+# =========================
+ProjectSettings/*.asset
+ProjectSettings/*.json
+ProjectSettings/ProjectVersion.txt
+
+# (만약 ProjectSettings를 전부 제외하고 싶다면 아래 한 줄로 대체 가능)
+# ProjectSettings/
+
+# =========================
+# Unity Editor / Collaborate
+# =========================
+UserSettings/
+*.csproj
+*.sln
+*.unityproj
+*.pidb
+*.booproj
+*.svd
+*.user
+*.userprefs
+
+# =========================
+# OS / IDE 잡파일
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =========================
+# Unity Collaborate / Proxy
+# =========================
+com.unity.collab-proxy*

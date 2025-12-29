@@ -1212,10 +1212,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7eafda5ffafb084bbe89eb6906be2ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
-  moveSpeed: 5
+  moveSpeed: 60
   bulletPrefab: {fileID: 7662611242580612762, guid: b379d3c3e7db18d47804ae3e77759732, type: 3}
   firePoint: {fileID: 563071885}
-  fireRate: 0.15
+  fireRate: 10
 --- !u!4 &1834037911 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6780372324027429252, guid: a8fb6ccd4e3489a4b9fcbb80e156d376, type: 3}

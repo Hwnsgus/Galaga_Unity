@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\UnityProject\\Galaga\\",
+  "WorkspaceRootPath": "C:\\git\\Galaga_Unity\\Galaga\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{12D7A22F-1A41-EEB1-EB2A-DE689ED20F21}|Assembly-CSharp.csproj|C:\\UnityProject\\Galaga\\assets\\scripts\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{12D7A22F-1A41-EEB1-EB2A-DE689ED20F21}|Assembly-CSharp.csproj|C:\\git\\Galaga_Unity\\Galaga\\assets\\scripts\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12D7A22F-1A41-EEB1-EB2A-DE689ED20F21}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12D7A22F-1A41-EEB1-EB2A-DE689ED20F21}|Assembly-CSharp.csproj|C:\\UnityProject\\Galaga\\assets\\scripts\\bulllet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12D7A22F-1A41-EEB1-EB2A-DE689ED20F21}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bulllet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12D7A22F-1A41-EEB1-EB2A-DE689ED20F21}|Assembly-CSharp.csproj|C:\\git\\Galaga_Unity\\Galaga\\assets\\scripts\\backgroundscroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12D7A22F-1A41-EEB1-EB2A-DE689ED20F21}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\backgroundscroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12D7A22F-1A41-EEB1-EB2A-DE689ED20F21}|Assembly-CSharp.csproj|C:\\UnityProject\\Galaga\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{12D7A22F-1A41-EEB1-EB2A-DE689ED20F21}|Assembly-CSharp.csproj|C:\\git\\Galaga_Unity\\Galaga\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12D7A22F-1A41-EEB1-EB2A-DE689ED20F21}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12D7A22F-1A41-EEB1-EB2A-DE689ED20F21}|Assembly-CSharp.csproj|C:\\UnityProject\\Galaga\\assets\\scripts\\backgroundscroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12D7A22F-1A41-EEB1-EB2A-DE689ED20F21}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\backgroundscroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12D7A22F-1A41-EEB1-EB2A-DE689ED20F21}|Assembly-CSharp.csproj|c:\\git\\galaga_unity\\galaga\\assets\\scripts\\bulllet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12D7A22F-1A41-EEB1-EB2A-DE689ED20F21}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bulllet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,11 +32,11 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "PlayerController.cs",
-              "DocumentMoniker": "C:\\UnityProject\\Galaga\\Assets\\Scripts\\PlayerController.cs",
+              "DocumentMoniker": "C:\\git\\Galaga_Unity\\Galaga\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
-              "ToolTip": "C:\\UnityProject\\Galaga\\Assets\\Scripts\\PlayerController.cs",
+              "ToolTip": "C:\\git\\Galaga_Unity\\Galaga\\Assets\\Scripts\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-24T01:21:59.711Z",
               "EditorCaption": ""
@@ -45,39 +45,40 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "EnemySpawner.cs",
-              "DocumentMoniker": "C:\\UnityProject\\Galaga\\Assets\\Scripts\\EnemySpawner.cs",
+              "DocumentMoniker": "C:\\git\\Galaga_Unity\\Galaga\\Assets\\Scripts\\EnemySpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemySpawner.cs",
-              "ToolTip": "C:\\UnityProject\\Galaga\\Assets\\Scripts\\EnemySpawner.cs",
+              "ToolTip": "C:\\git\\Galaga_Unity\\Galaga\\Assets\\Scripts\\EnemySpawner.cs",
               "RelativeToolTip": "Assets\\Scripts\\EnemySpawner.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-24T01:21:50.646Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Bulllet.cs",
-              "DocumentMoniker": "C:\\UnityProject\\Galaga\\Assets\\Scripts\\Bulllet.cs",
+              "DocumentMoniker": "C:\\git\\Galaga_Unity\\Galaga\\Assets\\Scripts\\Bulllet.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Bulllet.cs",
-              "ToolTip": "C:\\UnityProject\\Galaga\\Assets\\Scripts\\Bulllet.cs",
+              "ToolTip": "C:\\git\\Galaga_Unity\\Galaga\\Assets\\Scripts\\Bulllet.cs",
               "RelativeToolTip": "Assets\\Scripts\\Bulllet.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-24T01:21:43.613Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "BackgroundScroller.cs",
-              "DocumentMoniker": "C:\\UnityProject\\Galaga\\Assets\\Scripts\\BackgroundScroller.cs",
+              "DocumentMoniker": "C:\\git\\Galaga_Unity\\Galaga\\Assets\\Scripts\\BackgroundScroller.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BackgroundScroller.cs",
-              "ToolTip": "C:\\UnityProject\\Galaga\\Assets\\Scripts\\BackgroundScroller.cs",
+              "ToolTip": "C:\\git\\Galaga_Unity\\Galaga\\Assets\\Scripts\\BackgroundScroller.cs",
               "RelativeToolTip": "Assets\\Scripts\\BackgroundScroller.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T01:18:17.898Z"
+              "WhenOpened": "2025-12-24T01:18:17.898Z",
+              "EditorCaption": ""
             }
           ]
         }

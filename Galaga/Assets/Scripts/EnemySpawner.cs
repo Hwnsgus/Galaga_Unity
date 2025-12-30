@@ -1,12 +1,10 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
 {
     public GameObject enemyPrefab;
-    public float height = 10.0f; // 배경 높이를 기준으로 설정
-    public float spawnInterval = 1.5f; // 적 생성 간격을 1.5초로 늘림
+    public float spawnInterval = 60.0f; // 1분 (테스트할 땐 1초로 줄여서 하세요!)
 
     void Start()
     {
@@ -17,16 +15,24 @@ public class EnemySpawner : MonoBehaviour
     {
         while (true)
         {
-            // 1. 화면 밖 상단에서 랜덤한 X 위치 계산
-            float randomX = Random.Range(-3.5f, 3.5f);
-            // height 값(10)에 여유분을 더해 화면 밖에서 생성되도록 설정
-            Vector3 spawnPos = new Vector3(randomX, height + 2.0f, 0);
+            // 1. 카메라의 현재 크기를 기준으로 화면 밖 좌표 계산
+            // Camera.main.orthographicSize는 화면 세로 절반 크기입니다.
+            float verticalLimit = Camera.main.orthographicSize;
+            float horizontalLimit = verticalLimit * Camera.main.aspect; // 가로 크기 계산
 
-            // 2. 적 생성
+            // 2. 화면 위쪽 밖(Y)에서 생성
+            float spawnY = verticalLimit + 2.0f;
+
+            // 3. 좌우(X) 랜덤 위치 (화면 폭 내에서)
+            float spawnX = Random.Range(-horizontalLimit, horizontalLimit);
+
+            Vector3 spawnPos = new Vector3(spawnX, spawnY, 0);
+
+            // 4. 적 생성
             Instantiate(enemyPrefab, spawnPos, Quaternion.identity);
 
-            // 3. 지정된 시간만큼 대기
-            yield return new WaitForSeconds(spawnInterval);
+            // 5. 지정된 시간(60초)만큼 대기
+            yield return new WaitForSecondsRealtime(spawnInterval);
         }
     }
 }

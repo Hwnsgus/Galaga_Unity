@@ -8,7 +8,7 @@ public class PlayerController : MonoBehaviour
     public Transform firePoint;     // 총알이 나갈 위치 (플레이어 머리 끝)
 
     // 공격 속도 조절 변수
-    public float fireRate = 0.15f; // 0.15초마다 발사 (숫자가 클수록 느리게 나감)
+    public float fireRate = 0.3f; // 0.15초마다 발사 (숫자가 클수록 느리게 나감)
     private float nextFireTime = 0.0f; // 다음 발사 가능 시간을 저장할 변수
 
     void Update()

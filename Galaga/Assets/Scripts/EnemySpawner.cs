@@ -4,7 +4,13 @@ using UnityEngine;
 public class EnemySpawner : MonoBehaviour
 {
     public GameObject enemyPrefab;
-    public float spawnInterval = 60.0f; // 1분 (테스트할 땐 1초로 줄여서 하세요!)
+
+    [Header("스폰 시간 설정 (최소 ~ 최대)")]
+    public float minSpawnTime = 1.0f; // 최소 대기 시간
+    public float maxSpawnTime = 3.0f; // 최대 대기 시간
+
+    [Header("위치 설정")]
+    public float xMargin = 0.5f; // 화면 끝에서 얼마나 띄울지 (여백)
 
     void Start()
     {
@@ -15,24 +21,31 @@ public class EnemySpawner : MonoBehaviour
     {
         while (true)
         {
-            // 1. 카메라의 현재 크기를 기준으로 화면 밖 좌표 계산
-            // Camera.main.orthographicSize는 화면 세로 절반 크기입니다.
-            float verticalLimit = Camera.main.orthographicSize;
-            float horizontalLimit = verticalLimit * Camera.main.aspect; // 가로 크기 계산
+            // 1. 대기 시간부터 먼저 가짐 (게임 시작하자마자 쏟아지는 것 방지)
+            // 최소~최대 사이의 랜덤한 시간만큼 기다림
+            float waitTime = Random.Range(minSpawnTime, maxSpawnTime);
+            yield return new WaitForSecondsRealtime(waitTime);
 
-            // 2. 화면 위쪽 밖(Y)에서 생성
+            // -------------------------------------------------------
+
+            // 2. 화면 크기 계산
+            float verticalLimit = Camera.main.orthographicSize;
+            // 화면 가로 절반 크기
+            float horizontalLimit = verticalLimit * Camera.main.aspect;
+
+            // 3. X 위치 랜덤 계산 (마진 적용)
+            // 기존: -limit ~ limit (완전 끝까지)
+            // 변경: (-limit + 여백) ~ (limit - 여백) -> 화면 안쪽으로 조금 들어옴
+            float minX = -horizontalLimit + xMargin;
+            float maxX = horizontalLimit - xMargin;
+            float spawnX = Random.Range(minX, maxX);
+
+            // 4. Y 위치 (화면 위쪽 밖)
             float spawnY = verticalLimit + 2.0f;
 
-            // 3. 좌우(X) 랜덤 위치 (화면 폭 내에서)
-            float spawnX = Random.Range(-horizontalLimit, horizontalLimit);
-
+            // 5. 적 생성
             Vector3 spawnPos = new Vector3(spawnX, spawnY, 0);
-
-            // 4. 적 생성
             Instantiate(enemyPrefab, spawnPos, Quaternion.identity);
-
-            // 5. 지정된 시간(60초)만큼 대기
-            yield return new WaitForSecondsRealtime(spawnInterval);
         }
     }
 }

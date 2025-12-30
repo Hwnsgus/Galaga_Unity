@@ -858,7 +858,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemySpawner
   enemyPrefab: {fileID: 1208978826}
-  spawnInterval: 60
+  minSpawnTime: 2
+  maxSpawnTime: 5
+  xMargin: 0.5
 --- !u!114 &1208978831
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1262,7 +1264,7 @@ MonoBehaviour:
   moveSpeed: 60
   bulletPrefab: {fileID: 7662611242580612762, guid: b379d3c3e7db18d47804ae3e77759732, type: 3}
   firePoint: {fileID: 563071885}
-  fireRate: 40
+  fireRate: 0.5
 --- !u!4 &1834037911 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6780372324027429252, guid: a8fb6ccd4e3489a4b9fcbb80e156d376, type: 3}

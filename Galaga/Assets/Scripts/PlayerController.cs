@@ -19,8 +19,11 @@ public class PlayerController : MonoBehaviour
         transform.Translate(new Vector2(h, v) * moveSpeed * Time.deltaTime);
 
         // 2. 총알 발사 (스페이스바)
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKey(KeyCode.Space) && Time.time >= nextFireTime)
         {
+            // 다음 발사 시간 갱신 (현재 시간 + 쿨타임)
+            nextFireTime = Time.time + fireRate;
+
             Instantiate(bulletPrefab, firePoint.position, Quaternion.identity);
         }
     }

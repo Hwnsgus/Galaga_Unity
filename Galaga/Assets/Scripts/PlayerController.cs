@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+
         // 1. 플레이어 이동 (화살표 키)
         float h = Input.GetAxisRaw("Horizontal");
         float v = Input.GetAxisRaw("Vertical");
@@ -27,4 +28,5 @@ public class PlayerController : MonoBehaviour
             Instantiate(bulletPrefab, firePoint.position, Quaternion.identity);
         }
     }
+
 }

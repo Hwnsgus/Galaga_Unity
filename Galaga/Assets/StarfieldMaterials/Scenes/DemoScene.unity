@@ -152,7 +152,7 @@ MonoBehaviour:
   minSpawnTime: 1
   maxSpawnTime: 3
   xMargin: 0.5
-  spawnInterval: 1
+  spawnInterval: 0.5
 --- !u!4 &139103634
 Transform:
   m_ObjectHideFlags: 0

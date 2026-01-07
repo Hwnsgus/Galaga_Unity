@@ -1,12 +1,13 @@
 # 🚀 Galaga Style_Unity 
-> **Unity와 C#을 활용하여 개발한 2D 종스크롤 슈팅 게임입니다.** >
+> **Unity와 C#을 활용하여 개발한 2D 종스크롤 슈팅 게임입니다.** 
+
 
 <br>
 
 ## 📸 In-Game Screenshots
 
 <div align="center">
-  <img src="스크린샷 2026-01-07 164019" src="https://github.com/user-attachments/assets/749bb9eb-a44e-4310-a568-8a5576cbe088" alt="Gameplay" alt="Gameplay" width="600" />
+  <img width="307" height="517" alt="스크린샷 2026-01-07 164019" src="https://github.com/user-attachments/assets/3f3c17a7-f41a-4b3f-9237-aa73bad58ffa" alt="Gameplay" width="600" />
 </div>
 
 <br>

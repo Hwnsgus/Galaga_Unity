@@ -31,9 +31,10 @@
 <img width="592" height="903" alt="image" src="https://github.com/user-attachments/assets/17e1cca8-454d-4f3b-afe8-1179182073d9" />
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/1x1.png" height="10px">
-Player System: 플레이어의 이동 및 투사체 발사 로직 담당
-Enemy System: 적 생성기(Spawner)와 개별 적의 추적 AI(Controller)로 역할 분리
-Environment: 무한 스크롤 배경 처리를 통한 공간감 구현
+
+* **Player System:** 플레이어의 이동 및 투사체 발사 로직 담당
+* **Enemy System:** 적 생성기(Spawner)와 개별 적의 추적 AI(Controller)로 역할 분리
+* **Environment:** 무한 스크롤 배경 처리를 통한 공간감 구현
 
 <br>
 
@@ -47,7 +48,8 @@ Environment: 무한 스크롤 배경 처리를 통한 공간감 구현
 // EnemyController.cs
 // 플레이어 방향 벡터 계산 및 정규화
 Vector3 direction = (player.position - transform.position).normalized;
-transform.Translate(direction * speed * Time.deltaTime); 
+transform.Translate(direction * speed * Time.deltaTime);
+**```**
 
 <br>
 

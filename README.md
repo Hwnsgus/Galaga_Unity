@@ -3,7 +3,8 @@
 Unity와 C#을 활용하여 개발한 2D 종스크롤 슈팅 게임입니다.
 
 📸 In-Game Screenshots
-<div align="center"> <img src="<img width="314" height="513" alt="<img width="317" height="504" alt="image" src="https://github.com/user-attachments/assets/ef8d48bb-645a-4f0d-bf3c-a82766106892" />
+<div align="center"> <img src="<img width="314" height="513" alt="<img width="317" height="504" alt="image" src="https://gi<img width="307" height="517" alt="스크린샷 2026-01-07 164019" src="https://github.com/user-attachments/assets/30feba2f-f6da-49ee-96df-69ad6a499abd" />
+thub.com/user-attachments/assets/ef8d48bb-645a-4f0d-bf3c-a82766106892" />
 " />
  width="600" /> </div>
 

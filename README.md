@@ -49,7 +49,7 @@
 // 플레이어 방향 벡터 계산 및 정규화
 Vector3 direction = (player.position - transform.position).normalized;
 transform.Translate(direction * speed * Time.deltaTime);
-**```**
+```
 
 <br>
 

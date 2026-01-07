@@ -3,7 +3,7 @@
 Unity와 C#을 활용하여 개발한 2D 종스크롤 슈팅 게임입니다.
 
 📸 In-Game Screenshots
-<img width="307" height="517" alt="스크린샷 2026-01-07 164019" src="https://github.com/user-attachments/assets/749bb9eb-a44e-4310-a568-8a5576cbe088" />
+<div align="center"> <img width="307" height="517" alt="스크린샷 2026-01-07 164019" src="https://github.com/user-attachments/assets/749bb9eb-a44e-4310-a568-8a5576cbe088" alt="Gameplay" width="600" /> </div>
 
 🧩 System Architecture (UML)
 본 프로젝트는 각 클래스가 단일 책임 원칙(SRP)을 준수하도록 설계되었습니다.

@@ -54,12 +54,12 @@ transform.Translate(direction * speed * Time.deltaTime);
 <br>
 
 ## 🎮 How to Play
- · 이동: 키보드 방향키 (←, →, ↑, ↓) 또는 WASD
- · 공격: Space 바 (누르고 있으면 연속 발사 가능)
- · 목표: 끊임없이 생성되어 쫓아오는 적들을 피하거나 처치하여 생존하고 점수를 갱신해보세요
+* **이동:** 키보드 방향키 (←, →, ↑, ↓) 또는 WASD
+* **공격:** Space 바 (누르고 있으면 연속 발사 가능)
+* **목표:** 끊임없이 생성되어 쫓아오는 적들을 피하거나 처치하여 생존하고 점수를 갱신해보세요
 
 ## 🚀 Future Improvements (Refactoring Plan)
 
- · Score System: UI 매니저를 추가하여 점수 및 최고 기록 저장 기능 구현.
- · Sound Manager: 오디오 소스를 관리하는 별도 매니저 클래스 도입.
+* **Score System:** UI 매니저를 추가하여 점수 및 최고 기록 저장 기능 구현.
+* **Sound Manager:** 오디오 소스를 관리하는 별도 매니저 클래스 도입.
 

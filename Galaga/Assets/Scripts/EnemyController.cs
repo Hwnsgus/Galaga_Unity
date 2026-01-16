@@ -27,6 +27,8 @@ public class EnemyController : MonoBehaviour
             transform.Translate(direction * speed * Time.deltaTime);
         }
         else
+
+
         {
             // 플레이어가 없으면(죽었으면) 그냥 아래로 직진
             transform.Translate(Vector3.down * speed * Time.deltaTime);

@@ -25,7 +25,7 @@
 
 ## 🧩 System Architecture (UML)
 
-본 프로젝트는 각 클래스가 **단일 책임 원칙(SRP)**을 준수하도록 설계되어, 기능 간의 결합도를 낮추고 유지보수성을 높였습니다.
+본 프로젝트는 각 클래스가 단일 책임 원칙(SRP)을 준수하도록 설계되어, 기능 간의 결합도를 낮추고 유지보수성을 높였습니다.
 <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/1x1.png" height="10px">
 
 <img width="592" height="903" alt="image" src="https://github.com/user-attachments/assets/17e1cca8-454d-4f3b-afe8-1179182073d9" />
